@@ -1,4 +1,12 @@
+<p align="center">
+  <img
+    src="screenshots/tripz-LandingPage.png"
+    alt="TripZ AI Travel Planner"
+    width="100%"
+  />
+</p>
 
+# ✈️ TripZ — AI Travel Planner
 
 **1. TripZ --- AI Travel Planner ✈️**
 
