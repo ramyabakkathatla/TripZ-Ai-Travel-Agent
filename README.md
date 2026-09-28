@@ -21,13 +21,13 @@ unified travel dashboard.
 
 **3. Key Features**
 
--🧭 AI-Powered Trip Planning
+- 🧭 AI-Powered Trip Planning
 
--Single trip-planning interface.
+- Single trip-planning interface.
 
--Multi-agent travel workflow.
+- Multi-agent travel workflow.
 
--Consolidated travel dashboard.
+- Consolidated travel dashboard.
 
 **4. Flight Planning**
 
