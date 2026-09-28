@@ -8,7 +8,7 @@ sightseeing, transportation, local experiences, itinerary planning, and
 estimated expenses into one place.
 
 
-**2. ✨ Overview**
+**2.Overview**
 
 TripZ combines a modern Next.js frontend with a Python/FastAPI backend
 and specialized AI travel agents.
@@ -29,15 +29,15 @@ unified travel dashboard.
 
 -Consolidated travel dashboard.
 
-**✈️ Flight Planning**
+**4. Flight Planning**
 
-Outbound and return flight search.
+-Outbound and return flight search.
 
-Flight details and pricing information.
+-Flight details and pricing information.
 
-Flight results integrated into the trip plan.
+-Flight results integrated into the trip plan.
 
-**🏨 Hotel Recommendations**
+**5. Hotel Recommendations**
 
 Destination-based accommodation recommendations.
 
