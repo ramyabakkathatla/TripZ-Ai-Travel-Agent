@@ -1,4 +1,8 @@
-
+<p align="center">
+  <img src="![Uploading Screenshot 2026-09-28 101920.png…]()
+" width="48%" />
+  
+</p>
 
 **TripZ --- AI Travel Planner ✈️**
 
