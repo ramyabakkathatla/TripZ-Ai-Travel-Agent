@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="![Uploading Screenshot 2026-09-28 101920.png…]()
-" width="48%" />
-  
-</p>
 
-**TripZ --- AI Travel Planner ✈️**
+
+**1. TripZ --- AI Travel Planner ✈️**
 
 An AI-powered multi-agent travel planning application that helps users
 create a personalized trip by bringing flights, hotels, weather,
@@ -12,7 +8,7 @@ sightseeing, transportation, local experiences, itinerary planning, and
 estimated expenses into one place.
 
 
-**✨ Overview**
+**2. ✨ Overview**
 
 TripZ combines a modern Next.js frontend with a Python/FastAPI backend
 and specialized AI travel agents.
@@ -23,15 +19,15 @@ return dates - Number of travelers - Budget - Trip type - Interests
 TripZ then coordinates specialized agents and presents the results in a
 unified travel dashboard.
 
-**🚀 Key Features**
+**3. Key Features**
 
-🧭 AI-Powered Trip Planning
+-🧭 AI-Powered Trip Planning
 
-Single trip-planning interface.
+-Single trip-planning interface.
 
-Multi-agent travel workflow.
+-Multi-agent travel workflow.
 
-Consolidated travel dashboard.
+-Consolidated travel dashboard.
 
 **✈️ Flight Planning**
 
