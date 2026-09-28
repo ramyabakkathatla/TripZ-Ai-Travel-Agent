@@ -1,4 +1,3 @@
-![Uploading Screenshot 2026-09-28 101920.png…]()
 
 
 **TripZ --- AI Travel Planner ✈️**
