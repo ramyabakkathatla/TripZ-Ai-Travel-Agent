@@ -8,7 +8,7 @@ sightseeing, transportation, local experiences, itinerary planning, and
 estimated expenses into one place.
 
 
-**2.Overview**
+**2. Overview**
 
 TripZ combines a modern Next.js frontend with a Python/FastAPI backend
 and specialized AI travel agents.
@@ -19,7 +19,7 @@ return dates - Number of travelers - Budget - Trip type - Interests
 TripZ then coordinates specialized agents and presents the results in a
 unified travel dashboard.
 
-**3. Key Features**
+**3.1 Key Features**
 
 - 🧭 AI-Powered Trip Planning
 
@@ -29,80 +29,80 @@ unified travel dashboard.
 
 - Consolidated travel dashboard.
 
-**4. Flight Planning**
+**3.2 Flight Planning**
 
--Outbound and return flight search.
+- Outbound and return flight search.
 
--Flight details and pricing information.
+- Flight details and pricing information.
 
--Flight results integrated into the trip plan.
+- Flight results integrated into the trip plan.
 
-**5. Hotel Recommendations**
+**3.3 Hotel Recommendations**
 
-Destination-based accommodation recommendations.
+- Destination-based accommodation recommendations.
 
-Hotel information integrated into the trip plan.
+- Hotel information integrated into the trip plan.
 
-Accommodation costs included in estimated expenses.
+- Accommodation costs included in estimated expenses.
 
-**🌦️ Weather**
+**3.4 Weather**
 
-Destination weather information.
+- Destination weather information.
 
-Weather details available as part of the trip dashboard.
+- Weather details available as part of the trip dashboard.
 
-**📍 Sightseeing & Attractions**
+**3.5 Sightseeing & Attractions**
 
-Destination attraction recommendations.
+- Destination attraction recommendations.
 
-Visual attraction cards.
+- Visual attraction cards.
 
-Ratings, locations, descriptions, and imagery where available.
+- Ratings, locations, descriptions, and imagery where available.
 
-**🗺️ Maps & Transportation**
+**3.6 Maps & Transportation**
 
-Route and location information.
+- Route and location information.
 
-Map-based exploration.
+- Map-based exploration.
 
-Transportation planning.
+- Transportation planning.
 
-**🗓️ Day-by-Day Itinerary**
+**3.7 Day-by-Day Itinerary**
 
-Day-wise travel schedule.
+- Day-wise travel schedule.
 
-Morning, Afternoon, Evening, and Overnight sections.
+- Morning, Afternoon, Evening, and Overnight sections.
 
-Activities presented as bullet points for easy scanning.
+- Activities presented as bullet points for easy scanning.
 
-**🍽️ Local Food & Experiences**
+**3.8 Local Food & Experiences**
 
-Destination-specific food recommendations.
+- Destination-specific food recommendations.
 
-Local experiences and activities.
+- Local experiences and activities.
 
-**💰 Estimated Costs**
+**3.9 Estimated Costs**
 
 Estimated expenses are organized into: - Flights - Accommodation - Local
 Transportation - Food & Dining - Activities & Attractions - Shopping &
 Souvenirs
 
-**🎨 Modern Frontend**
+**4. Modern Frontend**
 
-Responsive Next.js interface.
+- Responsive Next.js interface.
 
-Separate navigation for travel sections.
+- Separate navigation for travel sections.
 
-Lucide React icons.
+- Lucide React icons.
 
-Travel-focused visual design.
+- Travel-focused visual design.
 
-Light/Dark theme support.
+- Light/Dark theme support.
 
-Loading, error, and empty states.
+- Loading, error, and empty states.
 
 
-**🧠 Multi-Agent Architecture**
+**5. Multi-Agent Architecture**
 
 TripZ uses a modular agent architecture coordinated by an orchestrator.
 
@@ -124,104 +124,73 @@ Expenses / Estimated Cost
        ↓
 Generated Trip Dashboard
 
-Orchestrator
-
-Coordinates the travel-planning workflow and manages communication
+- Orchestrator: Coordinates the travel-planning workflow and manages communication
 between specialized agents.
 
-Destination Agent
-
-Researches the selected destination and provides destination
+- Destination Agent: Researches the selected destination and provides destination
 information.
 
-Flight Agent
-
-Handles flight-search requirements and returns available flight
+- Flight Agent: Handles flight-search requirements and returns available flight
 information.
 
-Hotel Agent
+- Hotel Agent: Finds and structures accommodation recommendations.
 
-Finds and structures accommodation recommendations.
+- Weather Agent: Provides destination weather information.
 
-Weather Agent
-
-Provides destination weather information.
-
-Maps / Transportation Agent
-
-Handles routes, locations, and transportation-related information.
-
-Sightseeing Agent
-
-Finds attractions and prepares sightseeing information for the frontend.
-
-Itinerary Agent
-
-Creates a structured day-by-day itinerary from trip requirements and
-agent information.
-
-Local Food / Experiences Agent
-
-Provides local food and experience recommendations.
-
-Expenses / Estimated Cost
-
-Combines available trip information into category-level estimated
-expenses.
+- Maps Agent: Handles routes, locations, and transportation-related information.
 
 
+**6. Technology Stack**
 
-**🛠️ Technology Stack**
+**6.1 Frontend**
 
-**Frontend**
+- Next.js
 
-Next.js
+- React
 
-React
+- TypeScript
 
-TypeScript
+- Tailwind CSS
 
-Tailwind CSS
+- Lucide React
 
-Lucide React
-
-REST APIs / Fetch API
+- REST APIs / Fetch API
 
 
-**Backend**
+**6.2 Backend**
 
-Python
+- Python
 
-FastAPI
+- FastAPI
 
-Google ADK
+- Google ADK
 
-Gemini / Google GenAI
+- Gemini / Google GenAI
 
-APIs & Services
+- APIs & Services
 
-Google Maps Platform / Places API
+- Google Maps Platform / Places API
 
-Google Search Grounding
+- Google Search Grounding
 
-SerpAPI / Google Flights
+- SerpAPI / Google Flights
 
-Weather API
+- Weather API
 
-Mapping and routing services
+- Mapping and routing services
 
-**Development Tools**
-Git
+**6.3 Development Tools**
+- Git
 
-GitHub
+- GitHub
 
-VS Code
+- VS Code
 
-Python virtual environment
+- Python virtual environment
 
-npm
+- npm
 
-**📁 Project Structure**
+**7. Project Structure**
 
 TripZ/
 ├── backend/
@@ -243,7 +212,7 @@ TripZ/
 ├── README.md
 └── requirements.txt
 
-**⚙️ Getting Started**
+**8. Getting Started**
 
 Prerequisites
 
@@ -306,27 +275,27 @@ Use the exact variable names required by the current implementation.
 
 
 
-**🔄 Application Workflow**
+**9. Application Workflow**
 
-User opens TripZ.
+- User opens TripZ.
 
-User enters trip details.
+- User enters trip details.
 
-User selects Plan My Trip.
+- User selects Plan My Trip.
 
-Frontend sends the request to the backend.
+- Frontend sends the request to the backend.
 
-The orchestrator coordinates the required agents.
+- The orchestrator coordinates the required agents.
 
-Agents gather and generate travel information.
+- Agents gather and generate travel information.
 
-Results are combined into the trip state.
+- Results are combined into the trip state.
 
-The frontend displays the generated travel dashboard.
+- The frontend displays the generated travel dashboard.
 
-Users navigate between individual travel sections.
+- Users navigate between individual travel sections.
 
-**⚡ Performance**
+**10. Performance**
 
 TripZ response time can depend on: - Number of agents involved. -
 External API latency. - AI model response time. - Sequential
@@ -336,7 +305,7 @@ searches. - Backend processing time.
 Future optimization includes increased parallel execution, caching,
 request deduplication, and improved loading feedback.
 
-**⚠️ Known Limitations**
+**11. Known Limitations**
 
 External APIs can have quotas and rate limits.
 
@@ -347,46 +316,46 @@ External API availability can affect individual agent results.
 Image availability can vary by provider.
 
 
-**🔮 Future Improvements**
+**12. Future Improvements**
 
-Reduce overall trip-generation latency.
+- Reduce overall trip-generation latency.
 
-Increase parallel execution across independent agents.
+- Increase parallel execution across independent agents.
 
-Add stronger API caching and request deduplication.
+- Add stronger API caching and request deduplication.
 
-Optimize Google Places/image usage.
+- Optimize Google Places/image usage.
 
-Complete the Light/Dark theme system across all pages.
+- Complete the Light/Dark theme system across all pages.
 
-Improve mobile responsiveness.
+- Improve mobile responsiveness.
 
-Enhance itinerary visualization.
+- Enhance itinerary visualization.
 
-Improve map and route visualization.
+- Improve map and route visualization.
 
-Add stronger personalization.
+- Add stronger personalization.
 
-Improve expense estimation accuracy.
-
-
-
-**🔒 Security**
-
-Never commit API keys.
-
-Store secrets in environment variables.
-
-Restrict API keys to required services where possible.
-
-Never expose private backend credentials in frontend code.
-
-Validate external API responses before rendering them.
+- Improve expense estimation accuracy.
 
 
 
+**13. Security**
 
-📄 License
+- Never commit API keys.
+
+- Store secrets in environment variables.
+
+- Restrict API keys to required services where possible.
+
+- Never expose private backend credentials in frontend code.
+
+- Validate external API responses before rendering them.
+
+
+
+
+**14. License**
 
 This project is currently maintained as a development and portfolio
 application.
